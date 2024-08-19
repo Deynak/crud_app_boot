@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import com.deynak.crud_app.web.entity.Users;
-import com.deynak.crud_app.web.Service.UsersService;
+import com.deynak.crud_app.web.service.UsersService;
 
 @Controller
 @RequestMapping("/users")

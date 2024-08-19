@@ -1,4 +1,4 @@
-package com.deynak.crud_app.web.Dao;
+package com.deynak.crud_app.web.dao;
 
 
 import jakarta.persistence.EntityManager;

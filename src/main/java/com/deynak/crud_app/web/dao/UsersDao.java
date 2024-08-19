@@ -1,11 +1,10 @@
-package com.deynak.crud_app.web.Service;
+package com.deynak.crud_app.web.dao;
 
 import com.deynak.crud_app.web.entity.Users;
 
 import java.util.List;
 
-public interface UsersService {
-
+public interface UsersDao {
     List<Users> readingAllUsers();
 
     Users readUser(Long id);
@@ -15,6 +14,5 @@ public interface UsersService {
     void updateUser(Long id, Users user);
 
     void deleteUser(Long id);
-
 
 }
